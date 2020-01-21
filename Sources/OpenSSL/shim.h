@@ -29,6 +29,7 @@
 #include <openssl/rand.h>
 #include <openssl/pkcs12.h>
 #include <openssl/x509v3.h>
+#include <openssl/asn1.h>
 
 // This is a wrapper function to wrap the call to SSL_CTX_set_alpn_select_cb() which is
 // only available from OpenSSL v1.0.2. Calling this function with older version will do
